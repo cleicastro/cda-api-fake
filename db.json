@@ -1,207 +1,207 @@
 {
-	"activities": [
-	  {
-	    "name": "TP-C",
-	    "description": "Caldeira",
-	    "questions": [
-	      {
-	        "id": 1,
-	        "description": "Inspeção geral da caldeira (Supervisório, área externa e equipamentos)"
-	      },
-	      {
-	        "ïd": 2,
-	        "description": "Medição de Fumaça"
-	      },
-	      {
-	        "ïd": 3,
-	        "description": "Limpeza de fitas TC-04, TC-05, bicas e fornalha"
-	      },
-	      {
-	        "ïd": 4,
-	        "description": "Inspeção produtos químicos: \nOperador de campo - Bombonas vazias e contenção \nOperador de Tela - Planilhas e relatórios de dosagem."
-	      },
-	      {
-	        "ïd": 5,
-	        "description": "Limpeza talisqueiro parte hidráulica"
-	      }
-	    ]
-	  },
-	  {
-	    "name": "TP-E",
-	    "description": "ETE",
-	    "questions": []
-	  },
-	  {
-	    "name": "TP-T",
-	    "description": "Motorista",
-	    "questions": []
-	  },
-	  {
-	    "name": "TP-P",
-	    "description": "Motorista",
-	    "questions": []
-	  }
-	],
+  "activities": [
+    {
+      "name": "TP-C",
+      "description": "Caldeira",
+      "questions": [
+        {
+          "id": 1,
+          "description": "Inspeção geral da caldeira (Supervisório, área externa e equipamentos)"
+        },
+        {
+          "ïd": 2,
+          "description": "Medição de Fumaça"
+        },
+        {
+          "ïd": 3,
+          "description": "Limpeza de fitas TC-04, TC-05, bicas e fornalha"
+        },
+        {
+          "ïd": 4,
+          "description": "Inspeção produtos químicos: \nOperador de campo - Bombonas vazias e contenção \nOperador de Tela - Planilhas e relatórios de dosagem."
+        },
+        {
+          "ïd": 5,
+          "description": "Limpeza talisqueiro parte hidráulica"
+        }
+      ]
+    },
+    {
+      "name": "TP-E",
+      "description": "ETE",
+      "questions": []
+    },
+    {
+      "name": "TP-T",
+      "description": "Motorista",
+      "questions": []
+    },
+    {
+      "name": "TP-P",
+      "description": "Motorista",
+      "questions": []
+    }
+  ],
   "collaborators": [
-		{
-			"name": "Clei Castro",
-			"occupation": "Operador",
-			"avatar": "https://media.licdn.com/dms/image/C4D03AQFryRJQyoVIog/profile-displayphoto-shrink_200_200/0/1662216439870?e=2147483647&v=beta&t=xXAomUUTpI8nmTMKhdUdW8naDLFwkcGg6UCo9p3kRg4"
-		},
-		{
-			"name": "Patricia Lopes",
-			"occupation": "Motorista",
-			"avatar": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/fotos-perfil-whatsapp_16.jpg?tf=3840x"
-		},
-		{
-			"name": "José Souza",
-			"occupation": "Motorista",
-			"avatar": "https://photografos.com.br/wp-content/uploads/2020/09/fotografia-para-perfil.jpg"
-		},
-		{
-			"name": "João Gomes",
-			"occupation": "Operador",
-			"avatar": "https://linkconnection.com.br/wp-content/uploads/2023/02/fotos-para-perfil.jpg"
-		}
-	],
-	"shifts": [
-		{
-			"id": "fasdljr34r",
-			"name": "Turno 1",
-			"asCreated": "2023-11-02T00:02:9000",
-			"asFineshed": "2023-11-02T08:11:0000",
-			"status": false
-		},
-		{
-			"id": "24234fa",
-			"name": "Turno 2",
-			"asCreated": "2023-11-02T08:12:9000",
-			"asFineshed": "2023-11-02T16:01:0000",
-			"status": false
-		},
-		{
-			"id": "fasf3434",
-			"name": "Turno 3",
-			"asCreated": "2023-11-02T16:02:9000",
-			"asFineshed": null,
-			"status": true
-		}
-	]
-	"questions": [
-	  {
-	    "id": 1,
-	    "question": "Inspeção geral da caldeira (Supervisório, área externa e equipamentos)",
-	    "answer": 2,
-	    "justify": "",
-	    "options": [
-	      {
-	        "order": 3,
-	        "label": "Sim",
-	        "value": 1
-	      },
-	      {
-	        "order": 1,
-	        "label": "Não",
-	        "value": 0
-	      },
-	      {
-	        "order": 2,
-	        "label": "N/A",
-	        "value": 2
-	      }
-	    ]
-	  },
-	  {
-	    "id": 2,
-	    "question": "Medição de Fumaça",
-	    "answer": 2,
-	    "justify": "",
-	    "options": [
-	      {
-	        "order": 3,
-	        "label": "Sim",
-	        "value": 1
-	      },
-	      {
-	        "order": 1,
-	        "label": "Não",
-	        "value": 0
-	      },
-	      {
-	        "order": 2,
-	        "label": "N/A",
-	        "value": 2
-	      }
-	    ]
-	  },
-	  {
-	    "id": 3,
-	    "question": "Limpeza de fitas TC-04, TC-05, bicas e fornalha",
-	    "answer": 2,
-	    "justify": "",
-	    "options": [
-	      {
-	        "order": 3,
-	        "label": "Sim",
-	        "value": 1
-	      },
-	      {
-	        "order": 1,
-	        "label": "Não",
-	        "value": 0
-	      },
-	      {
-	        "order": 2,
-	        "label": "N/A",
-	        "value": 2
-	      }
-	    ]
-	  },
-	  {
-	    "id": 4,
-	    "question": "Inspeção produtos químicos: \nOperador de campo - Bombonas vazias e contenção \nOperador de Tela - Planilhas e relatórios de dosagem.",
-	    "answer": 2,
-	    "justify": "",
-	    "options": [
-	      {
-	        "order": 3,
-	        "label": "Sim",
-	        "value": 1
-	      },
-	      {
-	        "order": 1,
-	        "label": "Não",
-	        "value": 0
-	      },
-	      {
-	        "order": 2,
-	        "label": "N/A",
-	        "value": 2
-	      }
-	    ]
-	  },
-	  {
-	    "id": 5,
-	    "question": "Limpeza talisqueiro parte hidráulica",
-	    "answer": 2,
-	    "justify": "",
-	    "options": [
-	      {
-	        "order": 3,
-	        "label": "Sim",
-	        "value": 1
-	      },
-	      {
-	        "order": 1,
-	        "label": "Não",
-	        "value": 0
-	      },
-	      {
-	        "order": 2,
-	        "label": "N/A",
-	        "value": 2
-	      }
-	    ]
-	  }
-	]
+    {
+      "name": "Clei Castro",
+      "occupation": "Operador",
+      "avatar": "https://media.licdn.com/dms/image/C4D03AQFryRJQyoVIog/profile-displayphoto-shrink_200_200/0/1662216439870?e=2147483647&v=beta&t=xXAomUUTpI8nmTMKhdUdW8naDLFwkcGg6UCo9p3kRg4"
+    },
+    {
+      "name": "Patricia Lopes",
+      "occupation": "Motorista",
+      "avatar": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/fotos-perfil-whatsapp_16.jpg?tf=3840x"
+    },
+    {
+      "name": "José Souza",
+      "occupation": "Motorista",
+      "avatar": "https://photografos.com.br/wp-content/uploads/2020/09/fotografia-para-perfil.jpg"
+    },
+    {
+      "name": "João Gomes",
+      "occupation": "Operador",
+      "avatar": "https://linkconnection.com.br/wp-content/uploads/2023/02/fotos-para-perfil.jpg"
+    }
+  ],
+  "shifts": [
+    {
+      "id": "fasdljr34r",
+      "name": "Turno 1",
+      "asCreated": "2023-11-02T00:02:9000",
+      "asFineshed": "2023-11-02T08:11:0000",
+      "status": false
+    },
+    {
+      "id": "24234fa",
+      "name": "Turno 2",
+      "asCreated": "2023-11-02T08:12:9000",
+      "asFineshed": "2023-11-02T16:01:0000",
+      "status": false
+    },
+    {
+      "id": "fasf3434",
+      "name": "Turno 3",
+      "asCreated": "2023-11-02T16:02:9000",
+      "asFineshed": null,
+      "status": true
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "question": "Inspeção geral da caldeira (Supervisório, área externa e equipamentos)",
+      "answer": 2,
+      "justify": "",
+      "options": [
+        {
+          "order": 3,
+          "label": "Sim",
+          "value": 1
+        },
+        {
+          "order": 1,
+          "label": "Não",
+          "value": 0
+        },
+        {
+          "order": 2,
+          "label": "N/A",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Medição de Fumaça",
+      "answer": 2,
+      "justify": "",
+      "options": [
+        {
+          "order": 3,
+          "label": "Sim",
+          "value": 1
+        },
+        {
+          "order": 1,
+          "label": "Não",
+          "value": 0
+        },
+        {
+          "order": 2,
+          "label": "N/A",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Limpeza de fitas TC-04, TC-05, bicas e fornalha",
+      "answer": 2,
+      "justify": "",
+      "options": [
+        {
+          "order": 3,
+          "label": "Sim",
+          "value": 1
+        },
+        {
+          "order": 1,
+          "label": "Não",
+          "value": 0
+        },
+        {
+          "order": 2,
+          "label": "N/A",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Inspeção produtos químicos: \nOperador de campo - Bombonas vazias e contenção \nOperador de Tela - Planilhas e relatórios de dosagem.",
+      "answer": 2,
+      "justify": "",
+      "options": [
+        {
+          "order": 3,
+          "label": "Sim",
+          "value": 1
+        },
+        {
+          "order": 1,
+          "label": "Não",
+          "value": 0
+        },
+        {
+          "order": 2,
+          "label": "N/A",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Limpeza talisqueiro parte hidráulica",
+      "answer": 2,
+      "justify": "",
+      "options": [
+        {
+          "order": 3,
+          "label": "Sim",
+          "value": 1
+        },
+        {
+          "order": 1,
+          "label": "Não",
+          "value": 0
+        },
+        {
+          "order": 2,
+          "label": "N/A",
+          "value": 2
+        }
+      ]
+    }
+  ]
 }
