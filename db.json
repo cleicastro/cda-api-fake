@@ -5,6 +5,32 @@
       "date": "2023-11-02"
     }
   ],
+  "shifts": [
+    {
+      "id": "fasdljr34r",
+      "orderId": 1,
+      "name": "Turno 1",
+      "asCreated": "2023-11-02T00:02:9000",
+      "asFineshed": "2023-11-02T08:11:0000",
+      "status": false
+    },
+    {
+      "id": "24234fa",
+      "orderId": 1,
+      "name": "Turno 2",
+      "asCreated": "2023-11-02T08:12:9000",
+      "asFineshed": "2023-11-02T16:01:0000",
+      "status": false
+    },
+    {
+      "id": "fasf3434",
+      "orderId": 1,
+      "name": "Turno 3",
+      "asCreated": "2023-11-02T16:02:9000",
+      "asFineshed": null,
+      "status": true
+    }
+  ],
   "activities": [
     {
       "name": "TP-C",
@@ -68,32 +94,6 @@
       "name": "João Gomes",
       "occupation": "Operador",
       "avatar": "https://linkconnection.com.br/wp-content/uploads/2023/02/fotos-para-perfil.jpg"
-    }
-  ],
-  "shifts": [
-    {
-      "id": "fasdljr34r",
-      "orderId": 1,
-      "name": "Turno 1",
-      "asCreated": "2023-11-02T00:02:9000",
-      "asFineshed": "2023-11-02T08:11:0000",
-      "status": false
-    },
-    {
-      "id": "24234fa",
-      "orderId": 1,
-      "name": "Turno 2",
-      "asCreated": "2023-11-02T08:12:9000",
-      "asFineshed": "2023-11-02T16:01:0000",
-      "status": false
-    },
-    {
-      "id": "fasf3434",
-      "orderId": 1,
-      "name": "Turno 3",
-      "asCreated": "2023-11-02T16:02:9000",
-      "asFineshed": null,
-      "status": true
     }
   ],
   "questions": [
