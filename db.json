@@ -76,21 +76,25 @@
   ],
   "collaborators": [
     {
+      "id": 1,
       "name": "Clei Castro",
       "occupation": "Operador",
       "avatar": "https://media.licdn.com/dms/image/C4D03AQFryRJQyoVIog/profile-displayphoto-shrink_200_200/0/1662216439870?e=2147483647&v=beta&t=xXAomUUTpI8nmTMKhdUdW8naDLFwkcGg6UCo9p3kRg4"
     },
     {
+      "id": 2,
       "name": "Patricia Lopes",
       "occupation": "Motorista",
       "avatar": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/fotos-perfil-whatsapp_16.jpg?tf=3840x"
     },
     {
+      "id": 3,
       "name": "José Souza",
       "occupation": "Motorista",
       "avatar": "https://photografos.com.br/wp-content/uploads/2020/09/fotografia-para-perfil.jpg"
     },
     {
+      "id": 4,
       "name": "João Gomes",
       "occupation": "Operador",
       "avatar": "https://linkconnection.com.br/wp-content/uploads/2023/02/fotos-para-perfil.jpg"
