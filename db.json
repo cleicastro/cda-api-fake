@@ -1,220 +1,466 @@
-{
-  "orders": [
-    {
-      "id": 1,
-      "date": "2023-11-02"
-    }
-  ],
-  "shifts": [
-    {
-      "id": "fasdljr34r",
-      "orderId": 1,
-      "name": "Turno 1",
-      "asCreated": "2023-11-02T00:02:9000",
-      "asFineshed": "2023-11-02T08:11:0000",
-      "status": false
-    },
-    {
-      "id": "24234fa",
-      "orderId": 1,
-      "name": "Turno 2",
-      "asCreated": "2023-11-02T08:12:9000",
-      "asFineshed": "2023-11-02T16:01:0000",
-      "status": false
-    },
-    {
-      "id": "fasf3434",
-      "orderId": 1,
-      "name": "Turno 3",
-      "asCreated": "2023-11-02T16:02:9000",
-      "asFineshed": null,
-      "status": true
-    }
-  ],
-  "activities": [
-    {
-      "name": "TP-C",
-      "description": "Caldeira",
-      "questions": [
-        {
-          "id": 1,
-          "description": "Inspeção geral da caldeira (Supervisório, área externa e equipamentos)"
-        },
-        {
-          "ïd": 2,
-          "description": "Medição de Fumaça"
-        },
-        {
-          "ïd": 3,
-          "description": "Limpeza de fitas TC-04, TC-05, bicas e fornalha"
-        },
-        {
-          "ïd": 4,
-          "description": "Inspeção produtos químicos: \nOperador de campo - Bombonas vazias e contenção \nOperador de Tela - Planilhas e relatórios de dosagem."
-        },
-        {
-          "ïd": 5,
-          "description": "Limpeza talisqueiro parte hidráulica"
-        }
-      ]
-    },
-    {
-      "name": "TP-E",
-      "description": "ETE",
-      "questions": []
-    },
-    {
-      "name": "TP-T",
-      "description": "Motorista",
-      "questions": []
-    },
-    {
-      "name": "TP-P",
-      "description": "Motorista",
-      "questions": []
-    }
-  ],
-  "collaborators": [
-    {
-      "id": 1,
-      "name": "Clei Castro",
-      "occupation": "Operador",
-      "avatar": "https://media.licdn.com/dms/image/C4D03AQFryRJQyoVIog/profile-displayphoto-shrink_200_200/0/1662216439870?e=2147483647&v=beta&t=xXAomUUTpI8nmTMKhdUdW8naDLFwkcGg6UCo9p3kRg4"
-    },
-    {
-      "id": 2,
-      "name": "Patricia Lopes",
-      "occupation": "Motorista",
-      "avatar": "https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2018/08/fotos-perfil-whatsapp_16.jpg?tf=3840x"
-    },
-    {
-      "id": 3,
-      "name": "José Souza",
-      "occupation": "Motorista",
-      "avatar": "https://photografos.com.br/wp-content/uploads/2020/09/fotografia-para-perfil.jpg"
-    },
-    {
-      "id": 4,
-      "name": "João Gomes",
-      "occupation": "Operador",
-      "avatar": "https://linkconnection.com.br/wp-content/uploads/2023/02/fotos-para-perfil.jpg"
-    }
-  ],
-  "questions": [
-    {
-      "id": 1,
-      "question": "Inspeção geral da caldeira (Supervisório, área externa e equipamentos)",
-      "answer": 2,
-      "justify": "",
-      "options": [
-        {
-          "order": 3,
-          "label": "Sim",
-          "value": 1
-        },
-        {
-          "order": 1,
-          "label": "Não",
-          "value": 0
-        },
-        {
-          "order": 2,
-          "label": "N/A",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "question": "Medição de Fumaça",
-      "answer": 2,
-      "justify": "",
-      "options": [
-        {
-          "order": 3,
-          "label": "Sim",
-          "value": 1
-        },
-        {
-          "order": 1,
-          "label": "Não",
-          "value": 0
-        },
-        {
-          "order": 2,
-          "label": "N/A",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "question": "Limpeza de fitas TC-04, TC-05, bicas e fornalha",
-      "answer": 2,
-      "justify": "",
-      "options": [
-        {
-          "order": 3,
-          "label": "Sim",
-          "value": 1
-        },
-        {
-          "order": 1,
-          "label": "Não",
-          "value": 0
-        },
-        {
-          "order": 2,
-          "label": "N/A",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "question": "Inspeção produtos químicos: \nOperador de campo - Bombonas vazias e contenção \nOperador de Tela - Planilhas e relatórios de dosagem.",
-      "answer": 2,
-      "justify": "",
-      "options": [
-        {
-          "order": 3,
-          "label": "Sim",
-          "value": 1
-        },
-        {
-          "order": 1,
-          "label": "Não",
-          "value": 0
-        },
-        {
-          "order": 2,
-          "label": "N/A",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "question": "Limpeza talisqueiro parte hidráulica",
-      "answer": 2,
-      "justify": "",
-      "options": [
-        {
-          "order": 3,
-          "label": "Sim",
-          "value": 1
-        },
-        {
-          "order": 1,
-          "label": "Não",
-          "value": 0
-        },
-        {
-          "order": 2,
-          "label": "N/A",
-          "value": 2
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -298,
+    "totalInvoiceAmount": -298,
+    "liquidFinalAmount": -298
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -107.5,
+    "totalInvoiceAmount": -107.5,
+    "liquidFinalAmount": -107.5
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "elo",
+    "paidAmount": -90,
+    "totalInvoiceAmount": -90,
+    "liquidFinalAmount": -90
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -0.02,
+    "totalInvoiceAmount": -0.02,
+    "liquidFinalAmount": -0.02
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -199.8,
+    "totalInvoiceAmount": -199.8,
+    "liquidFinalAmount": -199.8
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -69.9,
+    "totalInvoiceAmount": -69.9,
+    "liquidFinalAmount": -69.9
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -290,
+    "totalInvoiceAmount": -290,
+    "liquidFinalAmount": -290
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -610.96,
+    "totalInvoiceAmount": -610.96,
+    "liquidFinalAmount": -610.96
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -6368.07,
+    "totalInvoiceAmount": -6368.07,
+    "liquidFinalAmount": -6368.07
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "visa",
+    "paidAmount": -1739.5,
+    "totalInvoiceAmount": -1739.5,
+    "liquidFinalAmount": -1739.5
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -101.78,
+    "totalInvoiceAmount": -101.78,
+    "liquidFinalAmount": -101.78
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "visa",
+    "paidAmount": -300,
+    "totalInvoiceAmount": -300,
+    "liquidFinalAmount": -300
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -1.59,
+    "totalInvoiceAmount": -1.59,
+    "liquidFinalAmount": -1.59
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -2330.52,
+    "totalInvoiceAmount": -2330.52,
+    "liquidFinalAmount": -2330.52
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -370,
+    "totalInvoiceAmount": -370,
+    "liquidFinalAmount": -370
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -34.4,
+    "totalInvoiceAmount": -34.4,
+    "liquidFinalAmount": -34.4
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -1887,
+    "totalInvoiceAmount": -1887,
+    "liquidFinalAmount": -1887
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "visa",
+    "paidAmount": -3250,
+    "totalInvoiceAmount": -3250,
+    "liquidFinalAmount": -3250
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -0.3,
+    "totalInvoiceAmount": -0.3,
+    "liquidFinalAmount": -0.3
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -99.9,
+    "totalInvoiceAmount": -99.9,
+    "liquidFinalAmount": -99.9
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -209.8,
+    "totalInvoiceAmount": -209.8,
+    "liquidFinalAmount": -209.8
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -5394.6,
+    "totalInvoiceAmount": -5394.6,
+    "liquidFinalAmount": -5394.6
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -349.8,
+    "totalInvoiceAmount": -349.8,
+    "liquidFinalAmount": -349.8
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -272,
+    "totalInvoiceAmount": -272,
+    "liquidFinalAmount": -272
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -2.34,
+    "totalInvoiceAmount": -2.34,
+    "liquidFinalAmount": -2.34
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -396,
+    "totalInvoiceAmount": -396,
+    "liquidFinalAmount": -396
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -505.11,
+    "totalInvoiceAmount": -505.11,
+    "liquidFinalAmount": -505.11
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -89.73,
+    "totalInvoiceAmount": -89.73,
+    "liquidFinalAmount": -89.73
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -211.66,
+    "totalInvoiceAmount": -211.66,
+    "liquidFinalAmount": -211.66
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -80,
+    "totalInvoiceAmount": -80,
+    "liquidFinalAmount": -80
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "visa",
+    "paidAmount": -80,
+    "totalInvoiceAmount": -80,
+    "liquidFinalAmount": -80
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -35,
+    "totalInvoiceAmount": -35,
+    "liquidFinalAmount": -35
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -139.8,
+    "totalInvoiceAmount": -139.8,
+    "liquidFinalAmount": -139.8
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -272.16,
+    "totalInvoiceAmount": -272.16,
+    "liquidFinalAmount": -272.16
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -50.39,
+    "totalInvoiceAmount": -50.39,
+    "liquidFinalAmount": -50.39
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "elo",
+    "paidAmount": -910.7,
+    "totalInvoiceAmount": -910.7,
+    "liquidFinalAmount": -910.7
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "visa",
+    "paidAmount": -3394.2,
+    "totalInvoiceAmount": -3394.2,
+    "liquidFinalAmount": -3394.2
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -9186.03,
+    "totalInvoiceAmount": -9186.03,
+    "liquidFinalAmount": -9186.03
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "american_express",
+    "paidAmount": -276,
+    "totalInvoiceAmount": -276,
+    "liquidFinalAmount": -276
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -41.51,
+    "totalInvoiceAmount": -41.51,
+    "liquidFinalAmount": -41.51
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -0.02,
+    "totalInvoiceAmount": -0.02,
+    "liquidFinalAmount": -0.02
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -1489.24,
+    "totalInvoiceAmount": -1489.24,
+    "liquidFinalAmount": -1489.24
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -1140,
+    "totalInvoiceAmount": -1140,
+    "liquidFinalAmount": -1140
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -0.02,
+    "totalInvoiceAmount": -0.02,
+    "liquidFinalAmount": -0.02
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -93.68,
+    "totalInvoiceAmount": -93.68,
+    "liquidFinalAmount": -93.68
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -311.01,
+    "totalInvoiceAmount": -311.01,
+    "liquidFinalAmount": -311.01
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -17.2,
+    "totalInvoiceAmount": -17.2,
+    "liquidFinalAmount": -17.2
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -582.67,
+    "totalInvoiceAmount": -582.67,
+    "liquidFinalAmount": -582.67
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -0.02,
+    "totalInvoiceAmount": -0.02,
+    "liquidFinalAmount": -0.02
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -1817.4,
+    "totalInvoiceAmount": -1817.4,
+    "liquidFinalAmount": -1817.4
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "visa",
+    "paidAmount": -7.53,
+    "totalInvoiceAmount": -7.53,
+    "liquidFinalAmount": -7.53
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -15,
+    "totalInvoiceAmount": -15,
+    "liquidFinalAmount": -15
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -51.6,
+    "totalInvoiceAmount": -51.6,
+    "liquidFinalAmount": -51.6
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -310,
+    "totalInvoiceAmount": -310,
+    "liquidFinalAmount": -310
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -17.24,
+    "totalInvoiceAmount": -17.24,
+    "liquidFinalAmount": -17.24
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "visa",
+    "paidAmount": -79.9,
+    "totalInvoiceAmount": -79.9,
+    "liquidFinalAmount": -79.9
+  },
+  {
+    "groupId": "G:PRD:01HXF8GNGJV51XVHDC5FCTXTZ0",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -174.6,
+    "totalInvoiceAmount": -174.6,
+    "liquidFinalAmount": -174.6
+  },
+  {
+    "groupId": "G:PRD:01HXHZC1RFMP75G1FGWGMKVDVM",
+    "transferDate": "2026-04-07",
+    "subAcquirer": "mastercard",
+    "paidAmount": -298,
+    "totalInvoiceAmount": -298,
+    "liquidFinalAmount": -298
+  }
+]
